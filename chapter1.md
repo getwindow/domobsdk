@@ -34,11 +34,6 @@ tools:ignore="ProtectedPermissions" /&gt;
 
 android:value="此处填写APP的PPID,即开发者在多盟申请的媒体ID" /&gt;
 
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px Helvetica}  
-p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px Helvetica; color: \#ff2600}  
-p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Helvetica}  
-span.s1 {color: \#931a68}
-
 #### 1.3 初始化
 
 在应用的入口处\(即:
