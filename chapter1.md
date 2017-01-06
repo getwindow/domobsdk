@@ -28,9 +28,11 @@
 
 tools:ignore="ProtectedPermissions" /&gt;
 
-&lt;serviceandroid:name="cn.dow.android.DService" /&gt;
+**Service与APPID注册：**
 
-&lt;meta-data android:name="D\_PPID"
+**&lt;serviceandroid:name="cn.dow.android.DService" /&gt;**
+
+&lt;meta-data **android:name="D\_PPID"**
 
 android:value="此处填写APP的PPID,即开发者在多盟申请的媒体ID" /&gt;
 
