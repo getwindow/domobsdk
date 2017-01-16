@@ -30,11 +30,29 @@ tools:ignore="ProtectedPermissions" /&gt;
 
 **Service与APPID注册：**
 
+**&lt;activity**
+
+android:name="cn.dow.android.DActivity"
+
+ android:screenOrientation="portrait"&gt;
+
+&lt;intent-filter&gt;
+
+&lt;categoryandroid:name="android.intent.category.DEFAULT"/&gt;
+
+&lt;actionandroid:name="aa.bb.cc.dd"/&gt;
+
+&lt;/intent-filter&gt;
+
+**&lt;/activity&gt;**
+
 **&lt;serviceandroid:name="cn.dow.android.DService" /&gt;**
 
 &lt;meta-data **android:name="D\_PPID"**
 
 android:value="此处填写APP的PPID,即开发者在多盟申请的媒体ID" /&gt;
+
+
 
 #### 1.3 初始化
 
