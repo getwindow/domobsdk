@@ -1,10 +1,4 @@
-
-
-# 快速集成 {#s3}
-
----
-
-## Step1 引入积分墙SDK
+### 引入积分墙SDK
 
 如果您单纯是想体积分墙功能的功能，建议直接跳过这一步。直接[下载Demo](http://baichuan.taobao.com/doc2/detail?spm=0.0.0.0.ct3Z2i&treeId=41&articleId=102828&docType=1#s0)。
 
@@ -14,7 +8,9 @@
 
 repositories {
 
-    maven { url 'http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories/' }
+```
+maven { url 'http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories/' }
+```
 
 }
 
@@ -22,17 +18,19 @@ repositories {
 
 dependencies {
 
-    //必选
+```
+//必选
 
-    compile 'com.alibaba.mobileim:IMCore:2.0.1@aar'
+compile 'com.alibaba.mobileim:IMCore:2.0.1@aar'
 
-    //可选，如果使用SDK的UI必须添加该依赖，如果不使用SDK的UI，完全自己开发UI则无需添加该依赖
+//可选，如果使用SDK的UI必须添加该依赖，如果不使用SDK的UI，完全自己开发UI则无需添加该依赖
 
-    compile 'com.alibaba.mobileim:IMKit:2.0.1@aar'
+compile 'com.alibaba.mobileim:IMKit:2.0.1@aar'
 
-    //可选，如果使用小视频功能必须添加该依赖，如果不使用小视频功能则无需添加该依赖
+//可选，如果使用小视频功能必须添加该依赖，如果不使用小视频功能则无需添加该依赖
 
-    compile 'com.alibaba.mobileim:RecorderSDK:1.0.0@aar'
+compile 'com.alibaba.mobileim:RecorderSDK:1.0.0@aar'
+```
 
 }
 
@@ -42,11 +40,13 @@ dependencies {
 
 repositories {
 
-    flatDir {
+```
+flatDir {
 
-        dirs 'libs'
+    dirs 'libs'
+```
 
-   }
+}
 
 }
 
@@ -66,7 +66,7 @@ compile\(name: ‘IMKit-2.0.2’, ext: ‘aar’\)
 
 ##### Step1.3.1 下载SDK
 
-如果您已经有了百川appkey，请先下载SDK。SDK下载后解压，得到以下内容：
+如果您已经有了多盟APPID，请先下载SDK。SDK下载后解压，得到以下内容：
 
 ![](/assets/import.png)
 
@@ -76,13 +76,11 @@ compile\(name: ‘IMKit-2.0.2’, ext: ‘aar’\)
 
 2、libs目录包含SDK。（libs中的libinet.so放到lib/armeabi目录）
 
-3、res存放了集成IMKit所需要资源文件。
+3、AndroidManifest.xml包含了集成SDK所需的权限和Android组件的声明。
 
-4、AndroidManifest.xml包含了集成SDK所需的权限和Android组件的声明。
+4、proguard.cfg代码混淆配置，开发者需要将这些配置复制到自己APP的混淆配置文件中去。
 
-5、proguard.cfg代码混淆配置，开发者需要将这些配置复制到自己APP的混淆配置文件中去。
-
-6、其它文件夹（文件）用户不用去关注。
+5、其它文件夹（文件）用户不用去关注。
 
 ##### Step1.3.2 Eclipse环境配置
 
@@ -103,8 +101,4 @@ compile\(name: ‘IMKit-2.0.2’, ext: ‘aar’\)
 详细的集成方式，可以参考我们视频中描述的方法。
 
 我们不建议直接将SDK内容复制到主工程的方式，这样后续SDK升级会比较麻烦，也容易遗漏到一些文件的升级（比如res目录）。
-
-
-
-
 
