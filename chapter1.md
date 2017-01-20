@@ -52,15 +52,7 @@ android:screenOrientation="portrait"&gt;
 
 android:value="此处填写APP的PPID,即开发者在多盟申请的媒体ID" /&gt;
 
-#### 1.3 初始化
-
-在应用的入口处\(即:
-
-第一个启动的Activity\)初始化多盟SDK，在Activity的onCreate的加入下面的代码:
-
-DOW.getInstance\(this\).init\(\);
-
-#### 1.4 代码混淆
+#### 1.3 代码混淆
 
 如果是需要混淆代码的，需要在proguard.cfg文件中加上：
 
