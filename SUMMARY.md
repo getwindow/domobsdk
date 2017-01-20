@@ -1,7 +1,7 @@
 # Summary
 
 * [多盟积分墙定数据模式版](README.md)
-* [引入积分墙SDK](引入积分墙sdk.md)
+* [SDK嵌入](引入积分墙sdk.md)
 * [AndroidManifest 注册](chapter1.md)
 * [积分墙使用](接口说明.md)
     * [积分墙初始化](积分管理.md)
