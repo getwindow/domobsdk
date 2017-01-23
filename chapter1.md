@@ -52,6 +52,8 @@ android:screenOrientation="portrait"&gt;
 
 android:value="此处填写APP的PPID,即开发者在多盟申请的媒体ID" /&gt;
 
+activity 是积分墙需要的，而数据模式
+
 #### 1.3 代码混淆
 
 如果是需要混淆代码的，需要在proguard.cfg文件中加上：
