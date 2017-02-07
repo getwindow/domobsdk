@@ -1,6 +1,6 @@
 ### 引入积分墙SDK
 
-如果您单纯是想体积分墙功能的功能，建议直接跳过这一步。直接[下载Demo](http://baichuan.taobao.com/doc2/detail?spm=0.0.0.0.ct3Z2i&treeId=41&articleId=102828&docType=1#s0)。
+如果您单纯是想体积分墙功能的功能，建议直接跳过这一步。直接[下载Demo](https://pro-app-mt.fir.im/e9b91721f339e6e419a3b59d97f2681e5c3cf343.apk?AWSAccessKeyId=e0cada7f00f2465b929656d799937873&Expires=1486458075&Signature=WTQpDxFMtC3MmC6WT%2Bis1cnh3Mc%3D&filename=domobwall.apk_1.0.apk)。
 
 #### Step1.1 Android Studio集成
 
