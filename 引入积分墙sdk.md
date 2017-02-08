@@ -42,9 +42,9 @@ dependencies {
 
 2、AOWDataSDKSample是Eclipse环境下的Demo
 
-3、AndroidManifest.xml包含了集成SDK所需的权限和Android组件的声明。
+3、\_6\_0\_demo是Android Studio环境下的Model形式的Demo
 
-
+4、AndroidManifest.xml包含了集成SDK所需的权限和Android组件的声明。
 
 ##### 
 
