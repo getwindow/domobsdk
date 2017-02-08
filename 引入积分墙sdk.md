@@ -9,58 +9,24 @@
 repositories {
 
 ```
-maven { url 'http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories/' }
+maven { url "https://raw.githubusercontent.com/jia635/domobwallsdk/master" }
 ```
 
 }
+
+即整个Project 中的build.gradle中配置
 
 ##### Step1.1.2 依赖积分墙SDK
 
 dependencies {
 
 ```
-//必选
-
-compile 'com.alibaba.mobileim:IMCore:2.0.1@aar'
-
-//可选，如果使用SDK的UI必须添加该依赖，如果不使用SDK的UI，完全自己开发UI则无需添加该依赖
-
-compile 'com.alibaba.mobileim:IMKit:2.0.1@aar'
-
-//可选，如果使用小视频功能必须添加该依赖，如果不使用小视频功能则无需添加该依赖
-
-compile 'com.alibaba.mobileim:RecorderSDK:1.0.0@aar'
+  compile 'cn.dow.android:aowsdk:4.6.0'
 ```
 
 }
 
-#### Step1.2 aar集成
-
-##### Step1.2.1 配置build.gradle
-
-repositories {
-
-```
-flatDir {
-
-    dirs 'libs'
-```
-
-}
-
-}
-
-##### Step1.2.2 添加依赖
-
-dependencies {
-
-compile fileTree\(dir: ‘libs’, include: \[’\*.jar’\]\)
-
-compile\(name: ‘IMCore-2.0.2’, ext: ‘aar’\)
-
-compile\(name: ‘IMKit-2.0.2’, ext: ‘aar’\)
-
-}
+在需要配置的Model 的build.gradle 中 添加依赖SDK地址
 
 #### Step1.3 Eclipse集成
 
