@@ -30,7 +30,7 @@ dependencies {
 
 **其他方法：**
 
-下载SDK，然后放到lib目录下导入Model 项目
+下载Eclipse方法中的SDK，然后放到lib目录下导入Model 项目
 
 #### Step1.3 Eclipse集成
 
