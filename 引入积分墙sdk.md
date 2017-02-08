@@ -44,9 +44,7 @@ dependencies {
 
 3、AndroidManifest.xml包含了集成SDK所需的权限和Android组件的声明。
 
-4、proguard.cfg代码混淆配置，开发者需要将这些配置复制到自己APP的混淆配置文件中去。
 
-5、其它文件夹（文件）用户不用去关注。
 
 ##### 
 
