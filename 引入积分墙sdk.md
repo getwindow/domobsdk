@@ -14,14 +14,12 @@ maven { url "https://raw.githubusercontent.com/jia635/domobwallsdk/master" }
 在需要的项目Model中的build.gradle中配置，dependencies和dependencies同一等级
 
 ##### Step1.1.2 依赖积分墙SDK
+```
 
 dependencies {
-
-```
   compile 'cn.dow.android:aowsdk:4.6.0'
-```
-
 }
+```
 
 在需要配置的Model 的build.gradle 中 添加依赖SDK地址
 
