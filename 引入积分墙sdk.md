@@ -21,7 +21,7 @@ dependencies {
 }
 ```
 
-在需要配置的Model 的build.gradle 中 添加依赖SDK地址
+在需要配置的Model 的build.gradle 中添加依赖SDK地址
 
 ##### **其他方法：**
 
