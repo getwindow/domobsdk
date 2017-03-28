@@ -1,6 +1,6 @@
 ### 引入积分墙SDK
 
-如果您单纯是想体积分墙功能的功能，建议直接跳过这一步。直接[下载Demo](https://pro-app-mt.fir.im/e9b91721f339e6e419a3b59d97f2681e5c3cf343.apk?AWSAccessKeyId=e0cada7f00f2465b929656d799937873&Expires=1486458075&Signature=WTQpDxFMtC3MmC6WT%2Bis1cnh3Mc%3D&filename=domobwall.apk_1.0.apk)。
+如果您单纯是想体积分墙功能的功能，建议直接跳过这一步。直接[下载Demo](http://qiniu-app.pgyer.com/88675077e5b9714dee2f8f9b6b9bfe46.apk?e=1490690826&attname=domobsdk_demo.apk&token=6fYeQ7_TVB5L0QSzosNFfw2HU8eJhAirMF5VxV9G:8es8MKspffRLG3mtqLEnzwZOhPc=&sign=2a923e18fe8af6e485266884f0ca9e51&t=58da230a)。
 
 #### Step1.1 Android Studio集成
 
