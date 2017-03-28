@@ -11,7 +11,7 @@ maven { url "https://raw.githubusercontent.com/jia635/domobwallsdk/master" }
 }
 ```
 
-即整个Project 中的build.gradle中配置
+在需要的项目Model中的build.gradle中配置，dependencies和dependencies统一等级
 
 ##### Step1.1.2 依赖积分墙SDK
 
