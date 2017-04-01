@@ -17,9 +17,9 @@
     * [扣除积分](扣除积分.md)
 * [ios开发者](ios.md)
 * [广告主合作](guang-gao-zhu-he-zuo.md)
-* 广告主合作
+* [常见问题](chang-jian-wen-ti.md)
 * [账号相关问题](常见问题.md)
 * [开发者服务协议](开发者服务协议.md)
 * [积分墙常见问题](积分墙相关问题.md)
-* [广告主合作](guang-gao-zhu-he-zuo.md)
+* [常见问题](chang-jian-wen-ti.md)
 
