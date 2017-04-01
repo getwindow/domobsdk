@@ -11,7 +11,7 @@ maven { url "https://raw.githubusercontent.com/jia635/domobwallsdk/master" }
 }
 ```
 
-在需要的项目Model中的build.gradle中配置，dependencies和dependencies同一等级
+在需要的项目Model中的build.gradle中配置，repositories和dependencies同一等级
 
 ##### Step1.1.2 依赖积分墙SDK
 ```
@@ -23,7 +23,7 @@ dependencies {
 
 在需要配置的Model 的build.gradle 中添加依赖SDK地址
 
-##### **其他方法：**
+##### <b style='color:red'>**其他方法：**</b>
 
 下载Eclipse方法中的SDK，然后放到lib目录下导入Model 项目
 
