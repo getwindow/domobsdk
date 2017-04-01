@@ -1,7 +1,7 @@
 # Summary
 
 * [积分墙介绍](README.md)
-  * [积分墙产品简介](ji-fen-qiang-chan-pin-jian-jie.md)
+* [积分墙产品简介](ji-fen-qiang-chan-pin-jian-jie.md)
 * [Android开发者](androidkai-fa-zhe.md)
   * [SDK导入](引入积分墙sdk.md)
   * [SDK权限配置](chapter1.md)
