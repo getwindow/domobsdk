@@ -4,9 +4,6 @@
 
 #### 1.1 将dynamic-4.3.0.jar拷贝到libs下，加入到您的Build Path。
 
-注：积分墙 SDK 依赖 android-support-v4.jar，并且指定target-sdk 21 以上编译.
-
-否则会影响积分墙的正常运行。
 
 #### 1.2 修改AndroidManifest.xml 添加权限：
 
