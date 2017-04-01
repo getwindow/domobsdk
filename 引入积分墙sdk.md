@@ -17,7 +17,7 @@ maven { url "https://raw.githubusercontent.com/jia635/domobwallsdk/master" }
 ```
 
 dependencies {
-  compile 'cn.dow.android:aowsdk:4.6.0'
+  compile 'cn.dow:aowsdk:4.6.0'
 }
 ```
 
