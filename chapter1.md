@@ -6,49 +6,31 @@
 
 
 #### 1.2 修改AndroidManifest.xml 添加权限：
-
-&lt;uses-permissionandroid:name="android.permission.MOUNT\_UNMOUNT\_FILESYSTEMS" /&gt;
-
-&lt;uses-permissionandroid:name="android.permission.INTERNET" /&gt;
-
-&lt;uses-permissionandroid:name="android.permission.ACCESS\_NETWORK\_STATE" /&gt;
-
-&lt;uses-permissionandroid:name="android.permission.READ\_PHONE\_STATE" /&gt;
-
-&lt;uses-permissionandroid:name="android.permission.WRITE\_EXTERNAL\_STORAGE" /&gt;
-
-&lt;uses-permissionandroid:name="android.permission.ACCESS\_WIFI\_STATE" /&gt;
-
-&lt;uses-permissionandroid:name="android.permission.GET\_TASKS" /&gt;
-
-&lt;uses-permissionandroid:name="android.permission.PACKAGE\_USAGE\_STATS"
-
-tools:ignore="ProtectedPermissions" /&gt;
-
+```
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+```
 #### **Service与APPID注册：**
+```
+  <!--多盟配置-->
+        <activity
+            android:name="cn.dow.android.DActivity"
+            android:screenOrientation="portrait" />
+        <service android:name="cn.dow.android.DService" />
 
-**&lt;activity**
-
-android:name="cn.dow.android.DActivity"
-
-android:screenOrientation="portrait"&gt;
-
-&lt;intent-filter&gt;
-
-&lt;categoryandroid:name="android.intent.category.DEFAULT"/&gt;
-
-&lt;actionandroid:name="aa.bb.cc.dd"/&gt;
-
-&lt;/intent-filter&gt;
-
-**&lt;/activity&gt;**
-
-**&lt;serviceandroid:name="cn.dow.android.DService" /&gt;**
-
-&lt;meta-data **android:name="D\_PPID"**
-
-android:value="此处填写APP的PPID,即开发者在多盟申请的媒体ID" /&gt;
-
+        <meta-data
+            android:name="D_PPID"
+            android:value="此处填写APP的PPID,即开发者在多盟申请的媒体ID" />
+        <!--多盟配置-->
+```
 activity 是积分墙需要的，而数据模式
 
 #### 1.3 代码混淆
