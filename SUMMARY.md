@@ -22,11 +22,8 @@
 * [常见问题](chang-jian-wen-ti.md)
   * [后台账户与应用管理](chang-jian-wen-ti/hou-tai-zhang-hu-yu-ying-yong-guan-li.md)
   * [积分墙相关问题](chang-jian-wen-ti/ji-fen-qiang-xiang-guan-wen-ti.md)
-* [账号相关问题](常见问题.md)
 * [服务条款](fu-wu-tiao-kuan.md)
   * [服务条款](fu-wu-tiao-kuan/zong-ze.md)
   * [开发者服务协议](fu-wu-tiao-kuan/kai-fa-zhe-fu-wu-xie-yi.md)
   * [广告主服务协议](fu-wu-tiao-kuan/guang-gao-zhu-fu-wu-xie-yi.md)
-* [开发者服务协议](开发者服务协议.md)
-* [积分墙常见问题](积分墙相关问题.md)
 
