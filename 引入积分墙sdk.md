@@ -2,7 +2,7 @@
 
 如果您单纯是想体积分墙功能的功能，建议直接跳过这一步。直接[下载Demo](https://www.pgyer.com/domobwalldemo)
 
-#### Step1.1 Android Studio集成
+#### Step1.1 <b style='color:red'>Android Studio</b>集成
 
 ##### Step1.1.1 配置maven仓库地址
 ```
@@ -25,9 +25,9 @@ dependencies {
 
 ##### <b style='color:red'>**其他方法：**</b>
 
-下载Eclipse方法中的SDK，然后放到lib目录下导入Model 项目
+下载Eclipse方法中的SDK，然后放到lib目录下导入Model项目
 
-#### Step1.3 Eclipse集成
+#### Step1.3 <b style='color:red'>Eclipse</b>集成
 
 ##### Step1.3.1 下载SDK
 
