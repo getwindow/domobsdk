@@ -1,6 +1,6 @@
 # Summary
 
-* [1 积分墙产品简介](README.md)
+* [删除文件](README.md)
 * [1 积分墙产品简介](ji-fen-qiang-chan-pin-jian-jie.md)
 * [2 集成SDK](ji-cheng-sdk.md)
   * [2.1 Android开发者](androidkai-fa-zhe.md)
