@@ -1,6 +1,6 @@
 #### SDK集成
 
-注：关于工程里如何使用SDK部分 ，以例子工程为准，文档只做参考。
+<b style='color:red'>如果在Android Studio中通过Maven方式接入，可以不在AndroidManifest中注册Activity，Service以及权限</b>
 
 #### 1.1 将dynamic-4.3.0.jar拷贝到libs下，加入到您的Build Path。
 
