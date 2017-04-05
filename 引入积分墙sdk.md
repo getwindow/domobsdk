@@ -14,7 +14,7 @@ maven { url "https://raw.githubusercontent.com/jia635/domobwallsdk/master" }
 在需要的项目Model中的build.gradle中配置，repositories和dependencies同一等级
 
 ##### Step1.1.2 依赖积分墙SDK
-```
+```java
 
 dependencies {
   compile 'cn.dow:aowsdk:4.6.0'
