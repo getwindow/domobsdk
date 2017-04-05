@@ -1,4 +1,4 @@
-### 引入积分墙SDK
+[~~~~[](http://mobi.domob.cn/developer/sdk](http://mobi.domob.cn/developer/sdk)~~~~)### 引入积分墙SDK
 
 如果您单纯是想体积分墙功能的功能，建议直接跳过这一步。直接[下载Demo](https://www.pgyer.com/domobwalldemo)
 
