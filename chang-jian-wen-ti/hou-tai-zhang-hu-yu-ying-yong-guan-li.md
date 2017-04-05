@@ -56,7 +56,7 @@ Publisher ID嵌入对应的应用，将能使投放的广告与应用内容切�
 **怎样下载SDK？**
 
 (1) 创建新应用、填写应用信息后，即可直接下载相关类型的SDK.
-(2) 你也可以到http://www.domob.cn/developers/SDKdownload.htm 页面上，下载所需类型的SDK.
+(2) 你也可以到[http://mobi.domob.cn/developer/sdk](http://mobi.domob.cn/developer/sdk) 页面上，下载所需类型的SDK.
 **怎样申请Publisher ID？**
 详见怎样创建新应用 。在创建应用完成后，即可得到PublishID。请注意PublishID仅能在对应的应用中使用。
 **什么是测试Publisher ID？**
