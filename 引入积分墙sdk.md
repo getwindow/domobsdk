@@ -38,9 +38,7 @@ dependencies {
 **目录说明：**
 
 1、libs目录包含SDK。
-
 2、AOWDataSDKSample是Eclipse环境下的Demo
-
 3、aowdatasdksample是Android Studio环境下的Model形式的Demo,以Jar形式集成SDK
 4、mavensdktest是Android Studio环境下的Model形式的Demo,以Maven形式集成SDK
 5、AndroidManifest.xml包含了集成SDK所需的权限和Android组件的声明。
