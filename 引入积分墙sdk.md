@@ -5,7 +5,7 @@
 #### Step1.1 <b style='color:red'>Android Studio</b>集成
 
 ##### Step1.1.1 配置maven仓库地址
-```
+```java
 repositories {
 maven { url "https://raw.githubusercontent.com/jia635/domobwallsdk/master" }
 }
