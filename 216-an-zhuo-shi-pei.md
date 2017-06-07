@@ -34,8 +34,7 @@ DOW.getPermissonHelper(this).applyPermissions();
 (3)在activity中重新onRequestPermissionsResult方法，在此方法中调用多盟权限帮助类相关方法
 ```java	
 @Override
-public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-				super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {			super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 			//调用多盟权限帮助类相关方法
 				DOW.getPermissonHelper(this).onRequestPermissionsResult(requestCode,permissions,grantResults);
 }
