@@ -1,4 +1,4 @@
-（1）设置申请权限的监听，监听用户授予权限的状态			
+(1)设置申请权限的监听，监听用户授予权限的状态			
 ```java
 			DOW.getPermissonHelper(this).setOnApplyPermissionListener(new OnGainPermissionListener() {
 				//所有权限都成功申请
