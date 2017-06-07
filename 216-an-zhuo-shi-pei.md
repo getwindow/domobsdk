@@ -23,8 +23,7 @@
 				}
 			}); 
 ```
-
-（2）申请权限
+(2)申请权限
 
 ```java	
 			DOW.getPermissonHelper(this).applyPermissions();
