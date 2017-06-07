@@ -54,16 +54,7 @@ android:name="android.support.FILE_PROVIDER_PATHS"
 android:resource="@xml/file_paths" />
 </provider>
 ```
-在项目的res/xml下添加 file_paths.xml
-<?xml version="1.0" encoding="utf-8"?>
-<paths>
-    <external-path
-        name="apkFiles"
-        path="DMDownload" />
-    <files-path
-        name="apkFiles2"
-        path="DMDownload" />
-</paths>
+
 
 
 
