@@ -40,4 +40,21 @@ public void onRequestPermissionsResult(int requestCode, String[] permissions, in
 }
 			```
 
+如果的targetSdkVersion为24或者以上版本（安卓7.0及以上系统），需要做如下适配：
+在AndroidManifest中注册provider
+```xml
+<provider           
+android:name="android.support.v4.content.FileProvider"
+android:authorities="包名.fileProvider"
+android:exported="false"
+android:grantUriPermissions="true">
+<!--我们提供 file_paths，也可以在demo中 res/xml下找到-->
+<meta-data
+android:name="android.support.FILE_PROVIDER_PATHS"
+android:resource="@xml/file_paths" />
+</provider>
+```
+
+
+
 
