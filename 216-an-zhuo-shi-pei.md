@@ -1,6 +1,7 @@
+如果的targetSdkVersion为23或者以上版本（安卓6.0及以上系统）需要动态申请READ_PHONE_STATE和WRITE_EXTERNAL_STORAGE两个权限，通过多盟SDK申请过程如下：
 (1)设置申请权限的监听，监听用户授予权限的状态			
 ```java
-			DOW.getPermissonHelper(this).setOnApplyPermissionListener(new OnGainPermissionListener() {
+DOW.getPermissonHelper(this).setOnApplyPermissionListener(new OnGainPermissionListener() {
 				//所有权限都成功申请
 				@Override
 				public void onAllPermissionGained() {
@@ -26,18 +27,18 @@
 (2)申请权限
 
 ```java	
-			DOW.getPermissonHelper(this).applyPermissions();
+DOW.getPermissonHelper(this).applyPermissions();
 ```
 
 
 (3)在activity中重新onRequestPermissionsResult方法，在此方法中调用多盟权限帮助类相关方法
 ```java	
-			@Override
-			public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+@Override
+public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
 				super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 				//调用多盟权限帮助类相关方法
 				DOW.getPermissonHelper(this).onRequestPermissionsResult(requestCode,permissions,grantResults);
-			}
+}
 			```
 
 
