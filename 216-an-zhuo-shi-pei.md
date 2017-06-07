@@ -36,7 +36,7 @@ DOW.getPermissonHelper(this).applyPermissions();
 @Override
 public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
 				super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-				//调用多盟权限帮助类相关方法
+			//调用多盟权限帮助类相关方法
 				DOW.getPermissonHelper(this).onRequestPermissionsResult(requestCode,permissions,grantResults);
 }
 			```
