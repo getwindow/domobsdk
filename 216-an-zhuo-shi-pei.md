@@ -1,6 +1,6 @@
-如果运行如果运行项目的targetSdkVersion是23，安卓系统为6.0及以上系统则需要动态申请READ_PHONE_STATE和WRITE_EXTERNAL_STORAGE权限，申请过程如下：
 （1）设置申请权限的监听，监听用户授予权限的状态
-						DOW.getPermissonHelper(this).setOnApplyPermissionListener(new OnGainPermissionListener() {
+			
+			DOW.getPermissonHelper(this).setOnApplyPermissionListener(new OnGainPermissionListener() {
 				//所有权限都成功申请
 				@Override
 				public void onAllPermissionGained() {
@@ -34,18 +34,3 @@
 				//调用多盟权限帮助类相关方法
 				DOW.getPermissonHelper(this).onRequestPermissionsResult(requestCode,permissions,grantResults);
 			}
-
-如果运行项目的targetSdkVersion是24即安卓7.0则需要做以下适配
-在AndroidManifest注册provider
-<!--兼容7.0 文件共享-->
-        <provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="包名.fileProvider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <!--我们提供 file_paths，也可以在demo中 res/xml下找到-->
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
-        </provider>
-        

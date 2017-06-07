@@ -17,6 +17,7 @@
       * [查询积分](查询积分.md)
       * [扣除积分](扣除积分.md)
     * [2.1.5 积分托管](ji-fen-tuo-guan.md)
+    * [2.1.6 安卓适配](216-an-zhuo-shi-pei.md)
   * [2.2 ios开发者](ios.md)
   * [2.3 广告主合作](guang-gao-zhu-he-zuo.md)
 * [3 常见问题](chang-jian-wen-ti.md)
